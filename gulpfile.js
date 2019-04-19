@@ -20,7 +20,7 @@ const banner = ['/*!\n',
 ].join('');
 
 // Copy third party libraries from /node_modules into /vendor
-gulp.task('vendor', function(cb) {
+gulp.task('vendor', function (cb) {
 
   // Bootstrap
   gulp.src([
