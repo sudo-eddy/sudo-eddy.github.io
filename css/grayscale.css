@@ -55,7 +55,7 @@
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -93,11 +93,11 @@
   height: 100vh;
   min-height: 35rem;
   padding: 15rem 0;
-  background-image: url(../img/blue-bg.jpg);
+  background-image: url(../img/hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: contain;
+  background-size: cover;
 }
 
 .masthead h1 {

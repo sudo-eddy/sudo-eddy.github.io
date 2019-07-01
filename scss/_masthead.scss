@@ -4,11 +4,12 @@
   height: 100vh;
   min-height: 35rem;
   padding: 15rem 0;
-  background-image: url(../img/blue-bg.jpg);
+  background-image: url(../img/hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: contain;
+  background-size: cover;
+
   h1 {
     font-family: 'Varela Round';
     font-size: 2.5rem;
@@ -18,24 +19,29 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
+
   h2 {
     max-width: 20rem;
     font-size: 1.5rem;
   }
+
   @media(min-width: 768px) {
     h1 {
       font-size: 4rem;
       line-height: 4rem;
     }
   }
+
   @media(min-width: 992px) {
     height: 100vh;
     padding: 0;
+
     h1 {
       font-size: 4.7rem;
       line-height: 4.5rem;
       letter-spacing: 0.8rem;
     }
+
     h2 {
       max-width: 30rem;
       font-size: 1.4rem;
