@@ -93,12 +93,11 @@
   height: 100vh;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(#434343), to(black));
-  background: linear-gradient(to right, #434343 0%, black 100%);
+  background-image: url(../img/blue-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: contain;
 }
 
 .masthead h1 {
