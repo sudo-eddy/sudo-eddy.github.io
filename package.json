@@ -3,7 +3,14 @@
 	"name": "startbootstrap-grayscale",
 	"version": "5.0.3",
 	"description": "A grayscale one page HTML theme for Bootstrap.",
-	"keywords": [ "css", "sass", "html", "responsive", "theme", "template" ],
+	"keywords": [
+		"css",
+		"sass",
+		"html",
+		"responsive",
+		"theme",
+		"template"
+	],
 	"homepage": "https://startbootstrap.com/template-overviews/grayscale",
 	"bugs": {
 		"url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
@@ -11,7 +18,9 @@
 	},
 	"license": "MIT",
 	"author": "Start Bootstrap",
-	"contributors": [ "David Miller (http://davidmiller.io/)" ],
+	"contributors": [
+		"David Miller (http://davidmiller.io/)"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
@@ -23,7 +32,7 @@
 		"jquery.easing": "^1.4.1"
 	},
 	"devDependencies": {
-		"browser-sync": "2.26.3",
+		"browser-sync": "^2.26.7",
 		"gulp": "4.0.0",
 		"gulp-autoprefixer": "6.1.0",
 		"gulp-clean-css": "4.0.0",

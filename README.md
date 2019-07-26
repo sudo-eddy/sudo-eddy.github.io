@@ -1,12 +1,19 @@
-# [This is my portfolio](https://sudo-eddy.github.io/)
+# [Welcome to my personal portfolio](https://sudo-eddy.github.io/)
 
-## Welcome to my personal portfolio.
 
-In my website you will find my main projects. Including some vanilla Javascript, some basic Ruby on Rails, as well as some Node content and a couple of simple MERN apps.
-I also have a section for my creative works which include some basic designs I made for a few clients. My favorite one is the logo I created for my family business because I created it using AutoCAD and finished it off with Inkscape. I was in my early stages of learning and I was having a hard time tyring to implement the design idea in Photoshop. It could definitely use a redesign, and I'm up for the challenge.
+### Basic Usage
 
-Whatever is not included in my website you may find it in my repos, I have some exercises and other simple projects.
+After cloning, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
+#### Gulp Tasks
+
+- `gulp default` the default task that builds everything
+- `gulp dev` runs browserSync and watchFiles parallel and opens the project in your default browser then live reloads when changes are made
+- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+- `gulp js` minifies the themes JS file
+- `gulp vendor` copies dependencies from node_modules to the vendor directory
+
+You must have npm installed globally in order to use this build environment.
 
 
 This is by far my favorite project because I will continue improving it and adding more content as I expand my knowledge.
